@@ -1,0 +1,33 @@
+.container {
+    font-size: 14px;
+}
+
+.container .header {
+    font-size: 18px;
+}
+
+.container .shop-list {
+    list-style: none;
+    margin-left: -15px;
+}
+
+.container .shop-list li.item {
+    color: green;
+}
+
+/* Q1-2-1 */
+.container .shop-list:first-child .item {
+    /* Explain why does this color not works, and how to fix make it work on 
+1st list */
+
+    color: blue;
+}
+
+/* Q1-2-2 */
+.container .shop-list li.item:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.container .shop-list li.item:nth-child(even) {
+    background-color: lightgray;
+}
